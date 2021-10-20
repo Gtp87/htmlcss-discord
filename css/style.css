@@ -133,8 +133,14 @@ main {
 
 .row {
     width: 70%;
-    margin: 0 auto;
+    margin: 5em auto;
 }
+
+.row.vh {
+    height: 100vh;
+}
+
+
 
 .gray {
     background-color: #f6f6f6;
@@ -155,5 +161,10 @@ main {
 }
 
 .font-size {
-    font-size: 3.4em;
-    margin-top: 1.8em;
+    font-size: 3em;
+   margin-top: 0.em;
+}
+
+.txt-center {
+    text-align: center;
+}
