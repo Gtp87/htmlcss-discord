@@ -134,11 +134,8 @@ main {
 .row {
     width: 70%;
     margin: 5em auto;
-    vertical-align: ;
-}
-
-.row.vh {
-    height: 100vh;
+    text-align: center;
+    
 }
 
 
@@ -168,4 +165,20 @@ main {
 
 .txt-center {
     text-align: center;
+}
+
+.star {
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#light {
+    background-color: cornflowerblue;
+}
+
+.bottom-btn {
+    margin: 5em 0;
 }
