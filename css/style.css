@@ -66,8 +66,13 @@ nav .float:nth-child(2) {
 .footer-menu a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
 }
+
+.navbar a {
+     font-weight: bold;
+
+}
+
 .navbar a:hover,
 .navbar a:active,
 .navbar a:focus {
@@ -76,7 +81,7 @@ nav .float:nth-child(2) {
 
 .footer-menu a:hover,
 .footer-menu a:active,
-.footer-menu a:active, {
+.footer-menu a:focus, {
     text-decoration: underline;
 
 }
@@ -148,6 +153,7 @@ main {
 .row {
     width: 70%;
     margin: 0 auto;
+    padding: 10em 0;
     text-align: center;
     
 }
@@ -212,13 +218,14 @@ footer{
 }
 
 .container-footer {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     color: white;
 }
 
 .container-footer.clearfix{
- border-bottom: 2px solid #697EC7;
+    padding-bottom: 2em;
+    border-bottom: 2px solid #697EC7;
 }
 
 .container-footer {
@@ -244,7 +251,7 @@ footer{
 
 .text-footer-social {
     color: #697EC7;
-    font-size: 2em;
+    font-size: 3em;
     margin-bottom: 1em;
 }
 
