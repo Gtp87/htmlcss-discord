@@ -173,7 +173,10 @@ main {
 
 .font-size {
    font-size: 3em;
-   margin-top: 0.em;
+}
+
+p {
+    margin-top: 1em;
 }
 
 .txt-center {
