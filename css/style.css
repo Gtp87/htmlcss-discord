@@ -195,7 +195,6 @@ p {
 .star {
     background-image: url(../img/stars.svg);
     background-size: contain;
-    background-repeat: repeat;
     display: inline-block;
     margin: 0 auto;
     padding: 1em 0;
@@ -203,6 +202,7 @@ p {
 
 .text-star {
     font-size: 2em;
+    padding: 1em;
 }
 
 #light,
