@@ -124,3 +124,18 @@ a.btn.dark:active,
 a.btn.dark:focus {
     color: #265ee8;
 }
+
+/* main */
+
+.container-main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.col60 {
+    width: 60%;
+}
+
+.col40 {
+    width: 40%;
+}
