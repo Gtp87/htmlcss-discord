@@ -82,12 +82,15 @@ nav .float:nth-child(2) {
 .footer-menu a:hover,
 .footer-menu a:active,
 .footer-menu a:focus, {
-    text-decoration: underline;
-
+   text-decoration: underline;
 }
 
 .footer-menu {
     line-height: 2em;
+}
+
+.footer-menu.nav-menu {
+    margin-top: 1em;
 }
 
 
@@ -212,6 +215,8 @@ p {
     padding-bottom: 3em;
 }
 
+/* footer */
+
 footer{
     background-color: black;
     padding: 5em 0;
@@ -252,7 +257,7 @@ footer{
 .text-footer-social {
     color: #697EC7;
     font-size: 3em;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 
 .text-footer-link  {
@@ -264,7 +269,6 @@ footer{
     position: absolute;
     right: 0;
     top: 0;
-
 }
 
 
