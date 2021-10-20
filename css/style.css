@@ -134,6 +134,7 @@ main {
 .row {
     width: 70%;
     margin: 5em auto;
+    vertical-align: ;
 }
 
 .row.vh {
@@ -148,12 +149,12 @@ main {
 
 .col60 {
     width: 60%;
-    padding: 5em;
+    /* padding: 0.5em; */
 }
 
 .col40 {
     width: 40%;
-    paddin: 5em;
+    padding: 1.5em;
 }
 
 .dim-img {
