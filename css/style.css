@@ -81,7 +81,7 @@ nav .float:nth-child(2) {
 
 .footer-menu a:hover,
 .footer-menu a:active,
-.footer-menu a:focus, {
+.footer-menu a:focus {
    text-decoration: underline;
 }
 
