@@ -132,10 +132,29 @@ a.btn.dark:focus {
     margin: 0 auto;
 }
 
+.row {
+    margin: 2em 0;
+}
+
+.row.gray {
+    background-color: #f6f6f6;
+}
+
 .col60 {
     width: 60%;
+    padding-right: 8em;
 }
 
 .col40 {
     width: 40%;
+    padding-top: 2em;
+}
+
+.dim-img {
+    width: 100%;
+}
+
+.font-size {
+    font-size: 3.4em;
+    margin-bottom: 0.5em;
 }
