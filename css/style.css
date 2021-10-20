@@ -127,23 +127,27 @@ a.btn.dark:focus {
 
 /* main */
 
-.row {
-    margin: 2em 0;
-    padding: 0 19em;
+main {
+    width: 100%;
 }
 
-.row.gray {
+.row {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.gray {
     background-color: #f6f6f6;
 }
 
 .col60 {
     width: 60%;
-    padding-right: 8em;
+    padding: 5em;
 }
 
 .col40 {
     width: 40%;
-    padding-top: 2em;
+    paddin: 5em;
 }
 
 .dim-img {
@@ -152,5 +156,4 @@ a.btn.dark:focus {
 
 .font-size {
     font-size: 3.4em;
-    margin-bottom: 0.5em;
-}
+    margin-top: 1.8em;
