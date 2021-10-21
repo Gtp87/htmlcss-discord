@@ -156,9 +156,12 @@ main {
 .row {
     width: 70%;
     margin: 0 auto;
-    padding: 10em 0;
+    padding: 10em 0;    
+}
+
+.row.text-align-cn {
     text-align: center;
-    
+
 }
 
 
@@ -196,6 +199,7 @@ p {
     background-image: url(../img/stars.svg);
     background-size: contain;
     display: inline-block;
+    background-repeat: no-repeat;
     margin: 0 auto;
     padding: 1em 0;
 }
@@ -203,6 +207,7 @@ p {
 .text-star {
     font-size: 2em;
     padding: 1em;
+    margin: 0 auto;
 }
 
 #light,
